@@ -1,0 +1,54 @@
+.wrapper {
+	 LEFT: 0px; FLOAT: right; MARGIN-BOTTOM: 0px; WIDTH: 900px; POSITION: relative; TOP: 20px;
+}
+.wrapper1 {
+	LEFT: 50px; MARGIN-BOTTOM: 0px; WIDTH: 1050px; POSITION: absolute; TOP: 20px; HEIGHT: 800px;
+}
+#leftside {
+	 FONT-SIZE: 14px; LEFT: 0px; FLOAT: left; WIDTH: 50px; LINE-HEIGHT: 1; POSITION: relative; TOP: 5px; HEIGHT: 200px;
+}
+#leftsidein {
+
+ POSITION: relative; TOP: 0px;LINE-HEIGHT: 1;
+}
+
+
+.left1 {
+	LEFT: 5px; FLOAT: left; WIDTH: 300px; POSITION: relative; HEIGHT: 200px;
+}
+.left2 {
+	LEFT: 15px; FLOAT: left; WIDTH: 300px; POSITION: relative; HEIGHT: 200px;
+}
+.left3 {
+	LEFT: 25px; FLOAT: left; WIDTH: 300px; POSITION: relative; HEIGHT: 200px;
+}
+.left6 {
+	LEFT: 23px; FLOAT: left; WIDTH: 300px; POSITION: relative; HEIGHT: 200px;
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none;
+}
+A:visited {
+	COLOR: #000000;
+}
+TABLE.cellLink A:hover {
+	MARGIN-LEFT: 15px; BACKGROUND-COLOR: #FFFFFF;
+}
+.cellLink TD {
+
+	PADDING:0px; margin:0px;}
+.cellLink TD A {
+	PADDING:0px; MARGIN:0px;
+}
+TABLE {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	line-height:12px;
+	
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px;
+}
+P {
+	FONT-SIZE: 18px;
+}

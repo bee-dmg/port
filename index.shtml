@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Bee Schmersal Web Developer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link REL="SHORTCUT ICON" HREF="http://www.beedawn.com/favicon.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="keywords"
+		content="graphic design, graphic designer, freelance graphic designer, art, printmaking, print making, fine art, graphic designer pittsburgh, graphic design pittsburgh, graphic designer pittsburgh pa," />
+	<meta name="description" content="Graphic Designer, Pittsburgh, PA." />
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat:ital,wght@1,800&family=Noto+Sans+Display:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<a class="navbar-brand" href="index.shtml">Bee Schmersal</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+			aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+
+				<li class="nav-item active dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						Portfolio <span class="sr-only">(current)</span>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="http://bee.surf/skateshop/">
+							Bob's Skate Shop
+						</a>
+						<a class="dropdown-item" href="http://bee.surf/Magic/">
+							Magic The Gathering Counter
+						</a>
+
+						
+					</div>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#resume">Resume</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://github.com/bee-dmg">GitHub</a>
+				</li>
+
+
+			</ul>
+		</div>
+	</nav>
+	<div class="mt-5 pt-3"></div>
+
+
+	<div class="container">
+		<div class="introduction">
+			<div class="intro-body">
+		<div class="row no-gutters justify-content-center"><span class="hello-world">Hello World</span></div>
+		
+		<div class="row justify-content-center no-gutters"><h2 class="my-name">I'm Brandon Schmersal</h2></div>
+				
+		<div class="row no-gutters justify-content-center"><h3 class="call-me-bee">But most people call me Bee</h3></div>
+	</div>
+	</div>
+		<div class="row justify-content-center no-gutters">
+
+
+	
+			<div class="row no-gutters col-12"><h2 class="title-font"><a id="portfolio">Web Apps</a></h2></div>
+
+			<div class="col-12 col-sm-6 imagecolumn">
+				<a href="http://bee.surf/skateshop/" title="Skateboard Store"><img src="images/skateshop2.png"
+						class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">Bob's Skateshop</div>
+			</div>
+			<div class="col-12 col-sm-6 imagecolumn">
+				<a href="http://bee.surf/Magic/" title="Magic The Gathering Score Keeper"><img src="images/magic.png" class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">Magic The Gathering Score Keeper</div>
+			</div>
+
+			<div class="row no-gutters col-12"><h2 class="title-font" name><a id="about">About Me</a></h2></div>
+
+			<div class="row justify-content-center no-gutters">
+				<div class="col-12 col-sm-10 col-md-6 col-xl-6 ">
+				   <img class="img-fluid rounded mx-auto d-block rounded-circle selfie" src="./images/me2.png"></div>
+	   
+				   <div class="col-12 col-sm-6 col-md-6 col-xl-4 align-self-center">
+				   Brandon Schmersal, who often, and prefers to go by Bee or Bdon - is a life long Pittsburgh resident. I
+				   received my BS in Graphic Design from <a href="http://www.calu.edu">California University of Pa</a> in 2011.
+				   I like playing music (drums, guitar), and drawing.
+				  <br /> <br />
+					My passion for web development, Javascript and React has been brewing. I am always looking for new projects, and will be updating this page when I have more things to share.
+					<br /> <br />
+
+				   I've been in bands such as <a href="https://geriatrics.bandcamp.com/releases">Geriatrics</a> and <a
+					  href="http://sickbaypgh.bandcamp.com">Sick Bay</a>. (if you click on the name of the bands, they will
+				   take you to the bandcamp pages!)
+	   <br /> <br />
+				   I also have been learning a fair amount about tattooing, and I always enjoy messing around on a
+				   skateboard.
+				   <br /> <br />
+				   For inquiries, you can reach me at one of the below links, whether it be professional, or just catching up.
+				   I can be emailed at <a
+					  href="mailto:beedschmersal@gmail.com">beeschmersal@gmail.com</a>
+			   <hr />
+				  
+	   
+					  <a href="mailto:beeschmersal@gmail.com"><img class="img-fluid" src="./images/about2.jpg"></a>
+					  <a href="tel://4122518012"><img class="img-fluid" src="./images/about3.jpg"></a>
+					  <a href="https://twitter.com/bee_dmg"><img class="img-fluid" src="./images/about4.jpg"></a>
+					  <a href="https://instagram.com/bee.dmg/"><img class="img-fluid" src="./images/about5.jpg"></a>
+				   </div>
+				</div>  
+
+
+			<div class="row no-gutters col-12"><h2 class="title-font"><a id="resume">Resume</a></h2></div>
+
+				<div class="row justify-content-center no-gutters">
+			
+					<a href="images/resume.pdf"><img class="img-fluid" src="images/resume.jpg" /></a>
+					<img class="img-fluid" src="./images/resume2.jpg">
+	
+	
+				
+			</div>
+
+
+			<!-- <div class="col-12 col-sm-6 col-md-4 col-xl-3 imagecolumn">
+				<a href="juice.shtml" title="JUICE PLUS"><img src="images/juice_tn.jpg" class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">Juice Plus Packaging</div>
+			</div>
+
+
+			<div class="col-12 col-sm-6 col-md-4 col-xl-3 imagecolumn">
+				<a href="wine.shtml" title="Just Wine"><img src="images/wine_tn.jpg" class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">Just Wine Packaging</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-xl-3 imagecolumn">
+				<a href="urban.shtml" title="Urban Pathways Charter School"><img src="images/urbann_tn.jpg"
+						height="200px" class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">UPCS Print Collateral</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-xl-3 imagecolumn"><a href="skull.shtml" title="Skull Hoodie"><img
+						src="images/skull.jpg" class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">Innovations Warehouse Design</div>
+
+
+			</div>
+
+
+
+
+			<div class="col-12 col-sm-6 col-md-4 col-xl-3 imagecolumn">
+				<a href="trcf.shtml" title="TRCF"><img src="images/trcf_tn1.jpg" class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">TRCF Print Collateral</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-xl-3 imagecolumn">
+
+				<a href="jamie.shtml" title="Jamie T-shirt"><img src="images/jamie_tn.jpg"
+						class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">Jamie T-Shirt</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-xl-3 imagecolumn">
+
+
+				<a href="kath.shtml" title="Kathryn Stabile"><img src="images/kath_tn.jpg"
+						class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">Kathryn Stabile Website</div>
+			</div>
+
+
+			<div class="col-12 col-sm-6 col-md-4 col-xl-3 imagecolumn">
+				<a href="collages.shtml" title="Collages"><img src="images/collages_tn.jpg"
+						class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">Photo Collages</div>
+			</div>
+			<div class=" col-12 col-sm-6 col-md-4 col-xl-3 imagecolumn">
+
+				<a href="posters.shtml" title="Posters"><img src="images/poster_tn.jpg" class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">Flyers</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-xl-3 imagecolumn">
+
+				<a href="rant.shtml" title="RANT Website 2015"><img src="images/RANTTN.jpg"
+						class="transparency img-fluid"
+						onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+						onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" /></a>
+				<div class="bottom-left">RANT Website</div> -->
+
+
+
+
+			</div>
+
+		</div>
+
+	</div>
+	</div>
+	</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

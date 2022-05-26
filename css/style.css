@@ -60,6 +60,19 @@ a:visited {
   margin-bottom: 0.25rem;
   font-size: 0.75rem;
 }
+.bottom-right {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #ff0000;
+  color: black;
+  padding: 0.5rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  font-weight:bold;
+  font-size:14px;
+}
+
 
 .bottom-left {
   position: absolute;
@@ -112,10 +125,23 @@ a:visited {
   width: 100%;
 }
 
-.selfie {
-}
 
 /*.dropdown-menu{
    max-height:10rem;
    overflow-y:auto;
 }*/
+
+.description{
+  padding:2rem;
+}
+.live{
+  background-color:#fffb00;
+  font-weight:bold;
+
+  text-align:center;
+  padding:1rem;
+}
+.github{  background-color:#ff0000;
+  font-weight:bold;
+  width:5rem;
+  text-align:center;}

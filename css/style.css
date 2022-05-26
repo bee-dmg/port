@@ -75,14 +75,15 @@ a:visited {
 
 
 .bottom-left {
-  position: absolute;
-  bottom: 1rem;
+
+
   left: 0.25rem;
   background-color: #000000;
   color: white;
   padding: 0.5rem;
+  width:14rem;
   margin-bottom: 0.25rem;
-  font-size: 0.75rem;
+  font-size: 1.75rem;
 }
 
 .dropdown-item {
@@ -135,13 +136,19 @@ a:visited {
   padding:2rem;
 }
 .live{
-  background-color:#fffb00;
+  background-color:#95f3a2;
   font-weight:bold;
-
+width:7rem;
   text-align:center;
   padding:1rem;
+  border-radius:1rem;
+  margin:auto;
+  margin-bottom:2rem;
 }
-.github{  background-color:#ff0000;
+.github{  background-color:#f49eec;
   font-weight:bold;
-  width:5rem;
-  text-align:center;}
+  width:7rem;
+  padding:1rem;
+  border-radius:1rem;
+  text-align:center;
+margin:auto;}

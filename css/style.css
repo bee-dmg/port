@@ -81,7 +81,9 @@ a:visited {
   background-color: #000000;
   color: white;
   padding: 0.5rem;
-  width:14rem;
+  width:16rem;
+  margin-left:2rem;
+  margin-top:1rem;
   margin-bottom: 0.25rem;
   font-size: 1.75rem;
 }

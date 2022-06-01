@@ -2,6 +2,54 @@
 <html>
   <head>
     <title>Bee Schmersal Web Developer</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('IMyxVCSe1dNt7NsMy');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm("service_nd691mb", 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('IMyxVCSe1dNt7NsMy');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="http://www.beedawn.com/favicon.ico" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -54,7 +102,10 @@
               Portfolio <span class="sr-only">(current)</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="http://bee.surf/skateshop/">
+              <a class="dropdown-item" href="http://slantyard.com">
+               Slantyard
+              </a>
+              <a class="dropdown-item" href="http://squashskate.com">
                 Bob's Skate Shop
               </a>
               <a class="dropdown-item" href="http://bee.surf/Magic/">
@@ -102,6 +153,44 @@
           <h2 class="title-font"><a id="portfolio">Web Apps</a></h2>
         </div>
 
+
+
+        <div class="col-12 col-lg-6 imagecolumn">
+          <div class="bottom-left">Slantyard</div>
+          <div class="description">
+            Slantyard was made using React.js and Firebase. It uses Firebase authentication, Firebase database, and their image storage. Please be sure to allow Geolocation in your browser. You can add spots, add comments, and upload pictures. You can sign into the website with credentials:<br /><br /><p><b>Username: guest@g.com</b></p><p><b>Password: guest0</b></p>
+          </div>
+          <div class="row">
+            <div class="col-6 col-sm-6">
+                <a
+                  href="https://github.com/bee-dmg/SkateSpotAppReact"
+                  target="_blank"
+                  >
+              <div class="github">
+              Github</a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6">
+              <a href="http://slantyard.com" target="_blank"><div class="live">
+               Live Site
+              </div></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 imagecolumn">
+          <a href="http://slantyard.com" title="Slantyard"
+            ><img
+              src="images/slantyard.png"
+              class="transparency img-fluid"
+              onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+              onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100"
+          /></a>
+          <div class="top-right">Made with React.js & Firebase</div>
+        </div>
+
+
+
+
         <div class="col-12 col-lg-6 imagecolumn">
           <a href="http://squashskate.com" title="Skateboard Store"
             ><img
@@ -122,18 +211,19 @@
           </div>
           <div class="row">
             <div class="col-6 col-sm-6">
-              <div class="github">
                 <a
                   href="https://github.com/bee-dmg/skateshopReact"
                   target="_blank"
-                  >Github</a
+                  >
+              <div class="github">
+              Github</a
                 >
               </div>
             </div>
             <div class="col-6 col-sm-6">
-              <div class="live">
-                <a href="http://squashskate.com" target="_blank">Live Site</a>
-              </div>
+              <a href="http://squashskate.com" target="_blank"><div class="live">
+               Live Site
+              </div></a>
             </div>
           </div>
         </div>
@@ -163,23 +253,55 @@
           </div>
         </div>
 
+
+
+
         <div class="row no-gutters col-12">
           <h2 class="title-font"><a id="resume">Resume</a></h2>
         </div>
 
-        <div class="row justify-content-center no-gutters">
-          <a href="./images/BSchmersal_Resume_2022.pdf"
-            ><img class="img-fluid" src="images/resume.jpg"
-          /></a>
-          <a href="./images/BSchmersal_Resume_2022.pdf"
-            ><img class="img-fluid" src="./images/resume2.jpg"
-          /></a>
-          <a href="./images/BSchmersal_Resume_2022.pdf">
-            <img class="img-fluid" src="./images/resume3.jpg" />
+
+
+<div>
+<div class="resumeDownload col-12">
+        <a href="./images/BSchmersalResume2022.pdf"
+        ><button type="button" class="btn btn-primary">Download Resume</button></a></div></div>
+        <p></p>
+        <div class="row justify-content-center no-gutters col-12">
+          
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/BSchmersalResume20221024_1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/BSchmersalResume20221024_2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/BSchmersalResume20221024_3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
           </a>
         </div>
-      </div>
-    </div>
+        </div>
+        <div>Contact</div>
+        <div><form id="contact-form">
+          <input type="hidden" name="contact_number">
+          <label>Name</label>
+          <input type="text" name="user_name">
+          <label>Email</label>
+          <input type="email" name="user_email">
+          <label>Message</label>
+          <textarea name="message"></textarea>
+          <input type="submit" value="Send">
+      </form></div>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

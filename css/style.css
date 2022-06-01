@@ -88,6 +88,24 @@ a:visited {
   font-size: 1.75rem;
 }
 
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    /* filter: invert(100%); */
+    background: rgba(0, 140, 255, 0.274);
+   top:50%;
+   height: 100px;
+   width: 100px;
+   background-size: 100%, 100%;
+   border-radius: 50%;
+   background-image: none;
+}
+.carosel-item{
+  transition:none;
+}
+.resumeDownload{
+  display:block;
+  margin:auto;
+}
 .dropdown-item {
   font-size: 0.8rem;
 }

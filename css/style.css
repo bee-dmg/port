@@ -154,23 +154,26 @@ a:visited {
   padding:2rem;
 }
 .live{
-  background-color:#95f3a2;
+  background-color:#b8e7fc;
   font-weight:bold;
 width:7rem;
+text-decoration:underline;
   text-align:center;
   padding:1rem;
   border-radius:1rem;
   margin:auto;
   margin-bottom:2rem;
 }
-.github{  background-color:#f49eec;
+.github{  background-color:#b8e7fc;
   font-weight:bold;
   width:7rem;
+  text-decoration:underline;
   padding:1rem;
   border-radius:1rem;
   text-align:center;
 margin:auto;}
-
+.github a:hover{  color:rgb(255, 255, 255);}
+.live a:hover{  color:rgb(255, 255, 255);}
 .messageForm{
   width:100%;
 }
@@ -182,4 +185,7 @@ margin:auto;}
 text-indent:15px;
 margin-bottom:2rem;
 margin-top:2rem;
+}
+.social{
+  height:48px;
 }

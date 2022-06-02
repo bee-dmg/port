@@ -54,8 +54,9 @@ a:visited {
  
   background-color: #e3e2e2;
   color: black;
-  padding: 0.7rem;
-  /* margin-bottom:; */
+  padding: 1rem;
+  
+
   width:100%;
   font-size: 0.75rem;
   height:100%;
@@ -66,16 +67,17 @@ a:visited {
 .bottom-left {
 
 height:100%;
- 
+
   background-color: #000000;
+  opacity:.7;
   color: white;
   padding: 0.5rem;
   width:100%;
-  margin-left:2rem;
+  
 
   margin-bottom: 0.25rem;
   font-size: 1.75rem;
-  opacity:.7;
+
   overflow:auto;
 }
 
@@ -209,4 +211,11 @@ margin-left:21%;
 
 .skillItems{
   margin:auto;
+}
+
+.imagecolumn{
+  background-color: #000000;
+  opacity:.7;
+  color: white;
+  margin-left:0rem;
 }

@@ -86,6 +86,7 @@ a:visited {
   margin-top:1rem;
   margin-bottom: 0.25rem;
   font-size: 1.75rem;
+  opacity:.7;
 }
 
 .carousel-control-next,
@@ -154,8 +155,10 @@ a:visited {
 .description{
   padding:2rem;
 }
+
 .live{
-  background-color:#b8e7fc;
+  background-color:#81f4c6;
+  
   font-weight:bold;
 width:7rem;
 text-decoration:underline;
@@ -165,7 +168,7 @@ text-decoration:underline;
   margin:auto;
   margin-bottom:2rem;
 }
-.github{  background-color:#b8e7fc;
+.github{  background-color:#eab5fd;
   font-weight:bold;
   width:7rem;
   text-decoration:underline;
@@ -182,6 +185,10 @@ margin:auto;}
   height:75px;
   margin-left:10%;
   text-align:center;
+  opacity:.8;
+}
+.contactImg{
+  opacity:0.75;
 }
 .skill{
   text-align:center;
@@ -189,6 +196,7 @@ margin:auto;}
 margin:auto;
 margin-bottom:2rem;
 margin-top:2rem;
+opacity:0.9;
 }
 .social{
   height:48px;

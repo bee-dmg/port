@@ -178,7 +178,7 @@ margin:auto;}
   width:100%;
 }
 .skillImage{
-  height:100px;
+  height:75px
 }
 .skill{
   text-align:center;
@@ -188,4 +188,9 @@ margin-top:2rem;
 }
 .social{
   height:48px;
+}
+.skillHolder{
+  width:80%;
+  margin:auto;
+  margin-right:12%;
 }

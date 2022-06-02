@@ -178,11 +178,14 @@ margin:auto;}
   width:100%;
 }
 .skillImage{
-  height:75px
+  height:75px;
+  margin-left:10%;
+  text-align:center;
 }
 .skill{
   text-align:center;
-text-indent:12%;
+/* text-indent:12%; */
+margin:auto;
 margin-bottom:2rem;
 margin-top:2rem;
 }

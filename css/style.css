@@ -118,6 +118,7 @@ a:visited {
 
 .call-me-bee {
   font-family: "Noto Sans Display", sans-serif;
+  text-decoration: underline;
 }
 
 .introduction {
